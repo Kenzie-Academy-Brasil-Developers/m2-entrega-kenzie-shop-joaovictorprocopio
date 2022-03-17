@@ -1,0 +1,44 @@
+.boxProducts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 42vh;
+    width: 18vw;
+    margin: 10px;
+}
+img{
+    height: 22vh;
+    width: 12vw;
+}
+ul{
+    display: flex;
+}
+li::before{
+    content: "\2606"; /*vazio*/
+    color: #ffe500;
+}
+.starOn:before{
+    content: "\2605"; /*cheio*/
+    color: #ffe500;
+}
+.precoSemPromo{
+    font-size: 22px;
+    font-weight: bold;
+}
+span{
+    font-size: 22px;
+    font-weight: bold;
+}
+button{
+    width: 6vw;
+    background-color: white;
+    border: 1px solid rgb(16, 112, 175);
+    border-radius: 4px;
+    color: rgb(16, 112, 175);
+    cursor: pointer;
+}
+
